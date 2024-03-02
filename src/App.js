@@ -1,14 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import NavigationStack from './Component/NavigationStack'; 
-import './App.css'; 
+import Header from './Component/Header';
+import Hero from './Component/Hero';
 
-function App() {
+const App = () => {
   return (
-    <div className='App'>
-      
+    <div>
+    <Header/>
+    <Hero/>
+    
     </div>
   );
-}
+};
 
 export default App;
