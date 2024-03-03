@@ -6,8 +6,8 @@ import Footer from './Component/Footer';
 const App = () => {
   return (
     <div>
-    <Header/>
-    <Hero/>
+    <Header title="Hello Mehedi" des ='this is simple description'/>
+    <Hero  />
     <Footer/>
     
     </div>
